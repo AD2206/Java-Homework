@@ -13,23 +13,23 @@ public class gradeCalculation {
         if(marks>=90) {
             grade = 'A';
         }
-            else if(marks>=70 && marks<=89) {
+        else if(marks>=70 && marks<=89) {
             grade = 'B';
 
         }
-            else if(marks>=50 && marks<=69) {
+        else if(marks>=50 && marks<=69) {
             grade = 'C';
         }
-            else if (marks<=50) {
-                grade ='D' ;
-            }
-
-            else{
-                System.out.println("Enter a valid mark");
-                System.exit(-1);
+        else if (marks<=50) {
+            grade ='D' ;
         }
 
-            System.out.println("Grade Obtained by the Student =  " + grade);
+        else{
+            System.out.println("Enter a valid mark");
+            System.exit(-1);
+        }
+
+        System.out.println("Grade Obtained by the Student =  " + grade);
 
     }
 }
